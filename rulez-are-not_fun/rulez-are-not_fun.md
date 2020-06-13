@@ -3,7 +3,7 @@
 Rules are not fun, however, here you need to follow them.
 They are necessary to keep everyone in a fun environment.
 
-1. Don't share answers outside of your team. This also applies to individuals
+1. Don't share flags with other teams. This also applies to individuals outside of your team
 2. Ask for help when necessary
 3. Use appropriate team/individual names
 4. Have Fun!
