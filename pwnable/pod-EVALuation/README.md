@@ -11,7 +11,7 @@ code doesn't smell right to you. They asked Will to test the
 code, but he's not sure the code is flawless.
 
 **Obs:** You do NOT need (or should) use brute forcing techniques
-to solve this issue. Doing so is against the rules.
+to solve this challenge. Doing so is against the rules.
 
 `nc <server_ip> <server_port>`
 

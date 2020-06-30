@@ -1,12 +1,10 @@
 #!/usr/bin/env python2.7
 # TODO: remove flag.txt from sum.py's directory
-
 import os
-
 
 def add_points(filename, points):
     with open(filename, 'r') as fp:  # read contents
-        curr_points = fp.read()
+        curr_points = fp.read().strip()
 
     new_points = eval("%s + %s" % (curr_points, points))
 
@@ -17,10 +15,10 @@ def add_points(filename, points):
 
 
 if __name__ == '__main__':
-    print "Welcome to the second most secure server in the entire fellowship!\n"
+    os.chdir(os.path.dirname(__file__))
 
-    points = raw_input("Points to add: ")
+    points = raw_input()
     filename = 'will.txt'
 
-    print add_points(filename, points)
-
+    total_points = add_points(filename, points)
+    print "Total points:", total_points
