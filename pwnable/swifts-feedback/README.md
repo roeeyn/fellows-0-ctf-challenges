@@ -10,7 +10,10 @@ and getting the code? Perhaps there's a flag on the server
 as well...
 
 **Obs:** You do NOT need (or should) use brute forcing techniques
-to solve this issue. Doing so is against the rules.
+to solve this challenge. Doing so is against the rules.
 
 `nc <server_ip> <server_port>`
 Obs (to ctf crew): give the `login.py` file to contestants as well
+
+
+**Solution**: Simply type `admin_pass`

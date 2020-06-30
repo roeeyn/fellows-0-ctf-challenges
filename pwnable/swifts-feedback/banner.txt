@@ -1,0 +1,5 @@
+Welcome to the second most secure server in the entire fellowship!
+
+Type the admin password to login:
+
+
