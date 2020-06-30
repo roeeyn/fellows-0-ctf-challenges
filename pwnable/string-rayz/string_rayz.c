@@ -20,12 +20,14 @@ int main() {
     printf("yaaaawn\n");
     sleep(3);
     printf("goina bed now\n");
-    sleep(10);
+    sleep(5);
     printf("get out and let me sleep!\n");
-    sleep(12);
+    sleep(5);
     printf("cmon the sooner I sleep the sooner you get your flag\n");
-    sleep(30);
+    sleep(10);
     printf("you're a hero just by getting this far\n");
+    sleep(20);
+    printf("it's time to quit waiting and start ctfing!\n");
     sleep(360000);
     printf("thanks for letting me sleep! here's your flag\n");
     print_super_secret_flag_muahaha();
