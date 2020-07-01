@@ -1,0 +1,7 @@
+hello there, my name is will
+thank you for using my database
+I mean, you won't be able to see this, because of my
+uncrackable encryption algorithm!
+but, in case you are, well done! Not bad at all
+
+Here's a flag for you ---> mlh{y4y_y0u_d1d_1t}
