@@ -10,6 +10,10 @@ Unfortunately, as all things in life, Will's code is not perfect.
 
 
 
-**Obs (ctf crew)**:
-**Flag**: mlh{f0rm4t_str1ng_1s_r4d}
-**Solution**:
+**Obs (ctf crew)**: Give only `format.c` to contestants.
+**Flag**: `mlh{let_me_put_zeroos_on_a_disk}`
+
+**Solution**: Solution is coded on `solution.py`:
+1. `make && make solve`
+2. Get the output of `make solve`
+3. Run `python3 solution.py` and feed it the output of `make solve`
