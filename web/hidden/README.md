@@ -1,10 +1,7 @@
-# Truthful admin
+# Hidden
 
 
-There are two things admins always are: liars and hungry.
-
-1. Liars because they're always `False`
-2. Hungry because they're always in need of a cookie
+Sometimes you gotta get out of the cave and see what others can't.
 
 
 `http://34.71.157.223:13578`
