@@ -4,11 +4,11 @@ service podeval
     socket_type     = stream
     protocol        = tcp
     wait            = no
-    user            = problemuser # PUT ACTUAL USER
+    user            = root
     bind            = 0.0.0.0
-    server          = /usr/bin/python2
-    server_args     = /home/problemuser/sum.py # PUT ACTUAL PATH
+    server          = /usr/sbin/chroot
+    server_args     = /home/problemuser/ /usr/bin/python2 sum.py
     type            = UNLISTED
     port            = 9999
-    banner_success  = /home/problemuser/banner.txt # prints output before getting input # PUT ACTUAL PATH
+    banner_success  = /home/problemuser/banner.txt # prints output before getting input
 }
