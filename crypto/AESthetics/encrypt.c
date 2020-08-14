@@ -71,8 +71,14 @@ main(int argc, char **argv)
 	fprintf(stderr, "your super secure random key: ");
 	print_hex(state.key_bytes, 16);
 
-	/* initial zeroing of counter and input buffer */
-	memset(state.counter, 0x00, 16);
+	/* start the counter at a random value; write it out as the
+	 * first 16 bytes of the output file (the counter is not
+	 * secret, only the key is!)
+	 */
+	arc4random_buf(state.counter, 16);
+	write(1, state.counter, 16);
+
+	/* initial zeroing of input buffer */
 	memset(input_buffer, 0x00, 16);
 
 	/* read a byte at a type and encrypt 16-byte blocks */
